@@ -1,0 +1,60 @@
+{
+  "id":"com.adobe.aem.guides.demo:aem-guides-demo.analyse:slingosgifeature:user-aggregated-author.stage:0.0.1-SNAPSHOT",
+  "bundles":[
+    {
+      "id":"com.adobe.aem.guides.demo:aem-guides-demo.core:0.0.1-SNAPSHOT",
+      "start-order":"20",
+      "feature-origins":"com.adobe.aem.guides.demo:aem-guides-demo.analyse:slingosgifeature:0.0.1-SNAPSHOT"
+    }
+  ],
+  "configurations":  {
+    "com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~demo":    {
+      "mobile.resourceTypes":[
+        "demo/components/page"
+      ],
+      "README":"Indicate which page resource types should display the mobile emulators.",
+      ":configurator:feature:origins":[
+        "com.adobe.aem.guides.demo:aem-guides-demo.analyse:slingosgifeature:author:0.0.1-SNAPSHOT"
+      ]
+    },
+    "org.apache.sling.commons.log.LogManager.factory.config~demo":    {
+      "org.apache.sling.commons.log.pattern":"{0,date,yyyy-MM-dd HH:mm:ss.SSS} *{4}* [{2}] {3} {5}",
+      "org.apache.sling.commons.log.names":[
+        "com.adobe.aem.guides.demo"
+      ],
+      "org.apache.sling.commons.log.level":"info",
+      "org.apache.sling.commons.log.file":"logs/error.log",
+      "org.apache.sling.commons.log.additiv":"false",
+      ":configurator:feature:origins":[
+        "com.adobe.aem.guides.demo:aem-guides-demo.analyse:slingosgifeature:stage:0.0.1-SNAPSHOT",
+        "com.adobe.aem.guides.demo:aem-guides-demo.analyse:slingosgifeature:0.0.1-SNAPSHOT"
+      ]
+    }
+  },
+  "assembled-features:ARTIFACTS|TRANSIENT":[
+    "com.adobe.aem.guides.demo:aem-guides-demo.analyse:slingosgifeature:author:0.0.1-SNAPSHOT",
+    "com.adobe.aem.guides.demo:aem-guides-demo.analyse:slingosgifeature:stage:0.0.1-SNAPSHOT",
+    "com.adobe.aem.guides.demo:aem-guides-demo.analyse:slingosgifeature:0.0.1-SNAPSHOT"
+  ],
+  "content-packages:ARTIFACTS|true":[
+    "com.adobe.aem.guides.demo:aem-guides-demo.ui.content:zip:cp2fm-converted:0.0.1-SNAPSHOT",
+    "com.adobe.aem.guides.demo:aem-guides-demo.ui.apps:zip:cp2fm-converted:0.0.1-SNAPSHOT",
+    "com.adobe.aem.guides.demo:aem-guides-demo.ui.config:zip:cp2fm-converted:0.0.1-SNAPSHOT",
+    "com.adobe.aem.guides.demo:aem-guides-demo.all:zip:cp2fm-converted:0.0.1-SNAPSHOT"
+  ],
+  "api-regions:JSON|false":[
+    {
+      "name":"global",
+      "exports":[
+        "com.adobe.aem.guides.demo.core.filters",
+        "com.adobe.aem.guides.demo.core.listeners",
+        "com.adobe.aem.guides.demo.core.models",
+        "com.adobe.aem.guides.demo.core.schedulers",
+        "com.adobe.aem.guides.demo.core.servlets"
+      ],
+      "feature-origins":[
+        "com.adobe.aem.guides.demo:aem-guides-demo.analyse:slingosgifeature:0.0.1-SNAPSHOT"
+      ]
+    }
+  ]
+}

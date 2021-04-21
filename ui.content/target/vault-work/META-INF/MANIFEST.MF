@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: Demo Project - UI content
+Content-Package-Roots: /conf/demo,/content/dam/demo,/content/demo,/con
+ tent/experience-fragments/demo
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Dependencies-Locations: com.adobe.aem.guides.demo:aem-
+ guides-demo.ui.apps:0.0.1-SNAPSHOT=maven:com.adobe.aem.guides.demo:ae
+ m-guides-demo.ui.apps:0.0.1-SNAPSHOT:zip
+Content-Package-Dependencies: com.adobe.aem.guides.demo:aem-guides-dem
+ o.ui.apps:0.0.1-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: content
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.4
+Content-Package-Id: com.adobe.aem.guides.demo:aem-guides-demo.ui.conte
+ nt:0.0.1-SNAPSHOT
+Content-Package-Description: UI content package for Demo Project
+

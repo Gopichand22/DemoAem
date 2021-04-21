@@ -1,0 +1,11 @@
+{
+  "id":"com.adobe.aem.guides.demo:aem-guides-demo.analyse:slingosgifeature:author:0.0.1-SNAPSHOT",
+  "configurations":  {
+    "com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~demo":    {
+      "mobile.resourceTypes":[
+        "demo/components/page"
+      ],
+      "README":"Indicate which page resource types should display the mobile emulators."
+    }
+  }
+}

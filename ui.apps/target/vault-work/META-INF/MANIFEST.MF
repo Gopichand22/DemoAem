@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: Demo Project - UI apps
+Content-Package-Roots: /apps/demo/clientlibs,/apps/demo/components,/ap
+ ps/demo/i18n
+Implementation-Version: 0.0.1-SNAPSHOT
+Import-Package: com.adobe.aem.guides.demo.core.models;version="[1.0.0,
+ 2.0.0)",org.apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+Build-Jdk-Spec: 1.8
+Content-Package-Type: application
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.4
+Content-Package-Id: com.adobe.aem.guides.demo:aem-guides-demo.ui.apps:
+ 0.0.1-SNAPSHOT
+Content-Package-Description: UI apps package for Demo Project
+
