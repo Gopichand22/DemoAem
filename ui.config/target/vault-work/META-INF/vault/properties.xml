@@ -4,7 +4,7 @@
 <comment>Demo Project - UI config</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="name">aem-guides-demo.ui.config</entry>
-<entry key="created">2021-04-21T10:02:49.030Z</entry>
+<entry key="created">2021-04-28T10:39:44.119Z</entry>
 <entry key="groupId">com.adobe.aem.guides.demo</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>
 <entry key="packageType">container</entry>

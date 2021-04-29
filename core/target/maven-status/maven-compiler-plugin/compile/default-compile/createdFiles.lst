@@ -6,6 +6,7 @@ com\adobe\aem\guides\demo\core\servlets\package-info.class
 com\adobe\aem\guides\demo\core\schedulers\SimpleScheduledTask.class
 com\adobe\aem\guides\demo\core\filters\package-info.class
 com\adobe\aem\guides\demo\core\servlets\SimpleServlet.class
+com\adobe\aem\guides\demo\core\models\Author.class
 com\adobe\aem\guides\demo\core\models\HelloWorldModel.class
 com\adobe\aem\guides\demo\core\models\package-info.class
 com\adobe\aem\guides\demo\core\listeners\SimpleResourceListener.class
